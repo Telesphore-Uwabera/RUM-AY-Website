@@ -48,31 +48,41 @@ const NewsSection = () => {
 
   return (
     <div className="space-y-6">
-      {/* Header */}
-      <div className="relative">
-        <h2 className="text-4xl font-black text-ayBlue">Latest News</h2>
-        <div className="absolute left-0 top-0 w-1 h-28 bg-ayBlue"></div>
-        <div className="absolute left-4 top-3 w-1 h-20 bg-red-600"></div>
+      {/* Header with decorative bars */}
+      <div className="relative pl-6">
+        <h2 className="text-2xl font-bold text-blue-900">Latest</h2>
+        <h2 className="text-2xl font-bold text-red-600 -mt-1">News</h2>
+        <div className="absolute left-0 top-0 w-1 h-16 bg-blue-900"></div>
+        <div className="absolute left-2 top-0 w-1 h-16 bg-red-600"></div>
       </div>
 
       {/* News Items */}
-      <div className="space-y-6">
+      <div className="space-y-4">
         {news.map((item, index) => (
-          <article key={index} className="card p-6 shadow-md">
+          <article key={index} className="bg-white rounded-lg shadow-md p-4 border border-gray-200">
             <header className="mb-3">
-              <h3 className="text-xl font-semibold text-gray-800 mb-1">{item.title}</h3>
-              <time className="text-gray-600 text-sm">{item.date}</time>
-              <p className="text-gray-600 text-sm">{item.location}</p>
+              <h3 className="text-lg font-semibold text-gray-800 mb-1">{item.title}</h3>
+              <div className="text-sm text-gray-500 mb-1">{item.date}</div>
+              <div className="text-sm text-gray-500">{item.location}</div>
             </header>
-            <p className="text-gray-600 mb-4 leading-relaxed">{item.content}</p>
-            <footer className="text-ayBlue font-semibold">Author: {item.author}</footer>
+            <p className="text-gray-600 mb-3 text-sm leading-relaxed">{item.content}</p>
+            <footer className="text-blue-600 font-semibold text-sm">
+              Author: {item.author}
+            </footer>
           </article>
         ))}
       </div>
 
+      {/* Read More Link */}
+      <div className="text-center">
+        <a href="#" className="text-blue-600 font-semibold hover:underline">
+          Read More
+        </a>
+      </div>
+
       {/* Next Button */}
       <div className="text-right">
-        <button className="w-10 h-10 bg-purple-600 rounded-full flex items-center justify-center text-white hover:bg-purple-700 transition-colors">
+        <button className="w-10 h-10 bg-red-500 rounded-full flex items-center justify-center text-white hover:bg-red-600 transition-colors">
           <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
             <path fillRule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clipRule="evenodd" />
           </svg>

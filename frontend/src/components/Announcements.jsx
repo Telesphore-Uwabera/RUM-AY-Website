@@ -28,21 +28,46 @@ const Announcements = () => {
     }
   ]
 
+  // Youth Verse of the Day Component
+  const VerseOfTheDay = () => (
+    <div className="bg-blue-100 rounded-lg p-6 mb-6">
+      <div className="flex items-center mb-3">
+        <div className="w-8 h-8 bg-blue-600 rounded-full flex items-center justify-center mr-3">
+          <span className="text-white text-sm font-bold">📖</span>
+        </div>
+        <h3 className="text-lg font-bold text-blue-800">Youth Verse of the Day</h3>
+      </div>
+      <blockquote className="text-blue-700 italic mb-3 text-sm leading-relaxed">
+        "For I know the plans I have for you," declares the Lord, "plans to prosper 
+        you and not to harm you, to give you hope and a future."
+      </blockquote>
+      <p className="text-blue-800 font-semibold text-center">Jeremiah 29:11</p>
+    </div>
+  )
+
   return (
     <div className="space-y-6">
-      <h2 className="text-2xl font-bold text-ayBlue">Announcements</h2>
+      {/* Verse of the Day */}
+      <VerseOfTheDay />
+      
+      {/* Announcements */}
       <div className="space-y-4">
         {announcements.map((announcement, index) => (
-          <article key={index} className="card p-6">
-            <header className="mb-3">
-              <h3 className="text-xl font-semibold text-gray-800 mb-1">{announcement.title}</h3>
-              <time className="text-gray-600">{announcement.date}</time>
-            </header>
-            <p className="text-gray-600 mb-4">{announcement.content}</p>
-            <a href="#" className="text-ayBlue font-semibold hover:underline">
+          <div key={index} className="bg-white rounded-lg shadow-md p-4">
+            <h3 className="text-lg font-semibold text-gray-800 mb-1">
+              {announcement.title}
+            </h3>
+            <p className="text-sm text-gray-500 mb-2">{announcement.date}</p>
+            <p className="text-gray-600 text-sm mb-3 leading-relaxed">
+              {announcement.content}
+            </p>
+            <a 
+              href="#" 
+              className="text-blue-600 text-sm font-semibold hover:underline"
+            >
               {announcement.link}
             </a>
-          </article>
+          </div>
         ))}
       </div>
     </div>

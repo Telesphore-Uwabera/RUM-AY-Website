@@ -11,16 +11,16 @@ const Events = () => {
       color: "text-green-600",
       events: [
         {
-          image: "https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-08-04/z9DmFE9jTm.png",
+          image: "https://images.unsplash.com/photo-1504851149312-7a075b496cc7?ixlib=rb-4.0.3&auto=format&fit=crop&w=2089&q=80",
           title: "AY Summer Camp",
           date: { day: "24", month: "DEC", dayName: "Fri" },
           location: "Gisenyi-Rubavu",
           tags: ["Swimming", "Worship", "Camp-Fires"],
           description: "A transformative week of adventure, worship, and friendship at the stunning Lake Kivu. Connect with nature and discover life-changing spiritual experiences.",
-          buttonColor: "bg-ayGreen"
+          buttonColor: "bg-green-600"
         },
         {
-          image: "https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-08-04/EVhvv6Y0GJ.png",
+          image: "https://images.unsplash.com/photo-1559827260-dc66d52bef19?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80",
           title: "Leadership Meeting",
           date: { day: "24", month: "DEC", dayName: "Fri" },
           location: "Gisenyi-Rubavu",
@@ -29,13 +29,13 @@ const Events = () => {
           buttonColor: "bg-blue-600"
         },
         {
-          image: "https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-08-04/b2rge39SET.png",
-          title: "AY Summer Camp",
-          date: { day: "24", month: "DEC", dayName: "Fri" },
-          location: "Gisenyi-Rubavu",
+          image: "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80",
+          title: "AY Music Class",
+          date: { day: "21", month: "DEC", dayName: "Fri" },
+          location: "Kigali-Rwanda",
           tags: ["Swimming", "Worship", "Camp-Fires"],
           description: "A transformative week of adventure, worship, and friendship at the stunning Lake Kivu. Connect with nature and discover life-changing spiritual experiences.",
-          buttonColor: "bg-ayGreen"
+          buttonColor: "bg-red-600"
         }
       ]
     },
@@ -44,16 +44,16 @@ const Events = () => {
       color: "text-green-600",
       events: [
         {
-          image: "https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-08-04/ekt2YdDsDb.png",
+          image: "https://images.unsplash.com/photo-1559827260-dc66d52bef19?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80",
           title: "AY Awarding Ceremony",
           date: { day: "02", month: "Sept", dayName: "Sun" },
           location: "Kigali-Rwanda",
           tags: ["Swimming", "Worship", "Camp-Fires"],
           description: "A transformative week of adventure, worship, and friendship at the stunning Lake Kivu. Connect with nature and discover life-changing spiritual experiences.",
-          buttonColor: "bg-ayGreen"
+          buttonColor: "bg-green-600"
         },
         {
-          image: "https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-08-04/st0oc2JVyK.png",
+          image: "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80",
           title: "AY Music Class",
           date: { day: "24", month: "DEC", dayName: "Fri" },
           location: "Kigali-Rwanda",
@@ -62,13 +62,13 @@ const Events = () => {
           buttonColor: "bg-red-600"
         },
         {
-          image: "https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-08-04/0CPX8OMjkM.png",
+          image: "https://images.unsplash.com/photo-1559827260-dc66d52bef19?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80",
           title: "Leadership Meeting",
           date: { day: "24", month: "DEC", dayName: "Fri" },
           location: "Gisenyi-Rubavu",
           tags: ["Worship", "Camp-Fires"],
           description: "A transformative week of adventure, worship, and friendship at the stunning Lake Kivu. Connect with nature and discover life-changing spiritual experiences.",
-          buttonColor: "bg-ayGreen"
+          buttonColor: "bg-green-600"
         }
       ]
     },
@@ -77,16 +77,16 @@ const Events = () => {
       color: "text-green-600",
       events: [
         {
-          image: "https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-08-04/f8Fn7oRK89.png",
+          image: "https://images.unsplash.com/photo-1504851149312-7a075b496cc7?ixlib=rb-4.0.3&auto=format&fit=crop&w=2089&q=80",
           title: "AY Summer Camp",
           date: { day: "24", month: "DEC", dayName: "Fri" },
           location: "Gisenyi-Rubavu",
           tags: ["Swimming", "Worship", "Camp-Fires"],
           description: "A transformative week of adventure, worship, and friendship at the stunning Lake Kivu. Connect with nature and discover life-changing spiritual experiences.",
-          buttonColor: "bg-ayGreen"
+          buttonColor: "bg-green-600"
         },
         {
-          image: "https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-08-04/oVoWdFjdo2.png",
+          image: "https://images.unsplash.com/photo-1559827260-dc66d52bef19?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80",
           title: "Leadership Meeting",
           date: { day: "24", month: "DEC", dayName: "Fri" },
           location: "Gisenyi-Rubavu",
@@ -95,13 +95,13 @@ const Events = () => {
           buttonColor: "bg-red-700"
         },
         {
-          image: "https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-08-04/e0pGGdexAM.png",
+          image: "https://images.unsplash.com/photo-1504851149312-7a075b496cc7?ixlib=rb-4.0.3&auto=format&fit=crop&w=2089&q=80",
           title: "AY Summer Camp",
           date: { day: "24", month: "DEC", dayName: "Fri" },
           location: "Gisenyi-Rubavu",
           tags: ["Swimming", "Worship", "Camp-Fires"],
           description: "A transformative week of adventure, worship, and friendship at the stunning Lake Kivu. Connect with nature and discover life-changing spiritual experiences.",
-          buttonColor: "bg-ayGreen"
+          buttonColor: "bg-green-600"
         }
       ]
     }
@@ -120,8 +120,8 @@ const Events = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         {/* Header */}
         <div className="text-center mb-12">
-          <h1 className="text-5xl font-black text-ayBlue mb-4">News & Events</h1>
-          <p className="text-xl text-gray-600">
+          <h1 className="text-4xl font-bold text-blue-900 mb-4">News & Events</h1>
+          <p className="text-lg text-gray-600 max-w-3xl mx-auto">
             "Stay updated with upcoming events and announcements from the AY movement across Rwanda."
           </p>
         </div>
@@ -129,15 +129,15 @@ const Events = () => {
         <div className="grid grid-cols-1 lg:grid-cols-4 gap-8">
           {/* Events Section */}
           <div className="lg:col-span-3">
-            <div className="card p-8">
+            <div className="bg-white rounded-lg shadow-md p-8">
               <header className="text-center mb-8">
-                <h2 className="text-4xl font-black text-ayBlue mb-2">Upcoming AY Events</h2>
-                <div className="w-36 h-1 bg-red-600 mx-auto"></div>
+                <h2 className="text-3xl font-bold text-blue-900 mb-4">Upcoming AY Events</h2>
+                <div className="w-24 h-1 bg-red-600 mx-auto"></div>
               </header>
 
               {/* Page Title */}
               <div className="mb-6">
-                <h3 className={`text-2xl font-black ${eventPages[currentPage].color}`}>
+                <h3 className={`text-2xl font-bold ${eventPages[currentPage].color}`}>
                   {eventPages[currentPage].title}
                 </h3>
               </div>

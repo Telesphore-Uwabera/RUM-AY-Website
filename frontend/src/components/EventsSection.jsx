@@ -79,7 +79,7 @@ const EventsSection = () => {
                 <span className="text-gray-800 font-medium">{event.location}</span>
               </div>
               
-              <button className={`${event.buttonColor} text-white px-6 py-2 rounded font-medium hover:opacity-90 transition-opacity`}>
+              <button className={`${eventbuttonColor} text-white px-6 py-2 rounded font-medium hover:opacity-90 transition-opacity`}>
                 Register Now
               </button>
             </div>

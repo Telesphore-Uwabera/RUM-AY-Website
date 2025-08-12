@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import { Link, useLocation } from 'react-router-dom'
+import logo from '../assets/logo.png';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -10,16 +11,16 @@ const Header = () => {
   return (
     <header className="bg-gray-50 sticky top-0 z-50 shadow-sm">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center py-4">
+        <div className="flex justify-between items-center py-2">
           {/* Logo */}
           <div className="flex-shrink-0">
-            <Link to="/" className="text-2xl font-bold text-gray-900 leading-tight">
+            <Link to="/" className="text-xl font-bold text-gray-900 leading-tight">
               Logo<br />here
             </Link>
           </div>
 
           {/* Desktop Navigation */}
-          <nav className="hidden md:flex items-center space-x-2">
+          <nav className="hidden md:flex items-center space-x-2 text-sm">
             <Link
               to="/"
               className={`nav-link ${isActive('/') ? 'active' : ''}`}
@@ -51,15 +52,15 @@ const Header = () => {
               Contact Us
             </Link>
           </nav>
-
           {/* Sidebar Image */}
-          <div className="hidden lg:block w-40 h-32">
+          <div className="hidden lg:block w-12 h-12">
             <img
-              src="https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-08-04/bSyZeFxHog.png"
+              src={logo}
               alt="AY Rwanda"
               className="w-full h-full object-cover rounded-lg"
             />
           </div>
+
 
           {/* Mobile menu button */}
           <div className="md:hidden">
@@ -77,7 +78,7 @@ const Header = () => {
         {/* Mobile Navigation */}
         {isMenuOpen && (
           <nav className="md:hidden pb-4">
-            <div className="flex flex-col space-y-2">
+            <div className="flex flex-col space-y-2 text-sm">
               <Link
                 to="/"
                 className={`nav-link ${isActive('/') ? 'active' : ''}`}
