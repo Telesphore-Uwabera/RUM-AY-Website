@@ -30,8 +30,8 @@ const Contact = () => {
   }
 
   return (
-    <div className="min-h-screen bg-gray-50">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+    <div className="bg-gray-50 grid grid-cols-1 lg:grid-cols-[1fr_300px] p-4">
+      <div className="max-w-2xl mx-auto my-6 px-4 sm:px-6 lg:px-8 py-8 border border-gray-300 rounded-lg">
         {/* Header */}
         <div className="mb-12">
           <h1 className="text-5xl font-black text-ayBlue mb-4">Contact Us</h1>
@@ -40,9 +40,9 @@ const Contact = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
+        <div className="grid grid-cols-1 gap-12">
           {/* Contact Form */}
-          <div className="space-y-8">
+          <div className="">
             <form onSubmit={handleSubmit} className="space-y-8">
               <div className="space-y-2">
                 <label htmlFor="fullName" className="text-xl font-bold text-gray-600">
@@ -113,9 +113,12 @@ const Contact = () => {
             </form>
           </div>
 
-          {/* Contact Information */}
-          <div className="space-y-12">
-            {/* Visit Us */}
+          
+        </div>
+      </div>
+      {/* Contact Information */}
+          <div className="space-y-12 justify-center my-6 place-items-center max-sm:grid max-sm:grid-cols-2">
+            {/* // Visit Us */}
             <div>
               <h2 className="text-3xl font-black text-ayBlue mb-6">Visit Us</h2>
               <div className="space-y-4 text-lg text-gray-600">
@@ -124,7 +127,8 @@ const Contact = () => {
               </div>
             </div>
 
-            {/* Talk to Us */}
+            {/* // Talk to Us */}
+            <div className='flex flex-col gap-7'>
             <div>
               <h2 className="text-3xl font-black text-ayBlue mb-6">Talk to Us</h2>
               <div className="space-y-4 text-lg text-gray-600">
@@ -133,7 +137,8 @@ const Contact = () => {
               </div>
             </div>
 
-            {/* Social Media */}
+            {/* // Social Media */}
+            
             <div>
               <div className="flex space-x-6">
                 <a href="#" className="w-12 h-12 bg-white rounded-full flex items-center justify-center shadow-md hover:shadow-lg transition-shadow">
@@ -158,9 +163,8 @@ const Contact = () => {
                 </a>
               </div>
             </div>
+            </div>
           </div>
-        </div>
-      </div>
     </div>
   )
 }

@@ -19,6 +19,7 @@ import Library from './pages/Library'
 import Clubs from './pages/Clubs'
 import Events from './pages/Events'
 import Contact from './pages/Contact'
+// import Contact from './pages/Contact1'
 
 function Home() {
   return (
